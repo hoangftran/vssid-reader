@@ -1,0 +1,7 @@
+table-transformer:
+  detection: microsoft/table-transformer-detection
+  structure-recognition: microsoft/table-transformer-structure-recognition-v1.1-all
+  # structure-recognition: microsoft/table-transformer-structure-recognition
+tessaract:
+  cmd: /opt/homebrew/Cellar/tesseract/5.3.4_1/bin/tesseract
+ner: NlpHUST/ner-vietnamese-electra-base

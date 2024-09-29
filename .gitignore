@@ -1,0 +1,15 @@
+# Existing ignored folders
+data
+media
+result
+
+# Additional folders to ignore
+logs/
+temp/
+node_modules/
+
+# Ignore all files in the build directory
+build/*
+
+# But don't ignore .gitkeep files in any ignored directory
+!**/.gitkeep
